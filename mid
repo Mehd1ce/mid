@@ -284,7 +284,7 @@ DDL (Data Definition Language).
 DELETE removes selected rows, while TRUNCATE removes all rows.
  
 49. What does TRUNCATE do?
-It removes all rows from a table quickly.
+Removes all rows from a table but keeps its structure.
  
 50. What does DELETE do?
 It removes rows from a table.
