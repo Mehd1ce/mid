@@ -16,7 +16,7 @@ UNIQUE = duplicate values not allowed, NULL values allowed.
 
 SELECT customer_name AS name, 'Customer' AS type
 FROM Customers
-UNION
+UNION ALL
 SELECT supplier_name AS name, 'Supplier' AS type
 FROM Suppliers;
 
