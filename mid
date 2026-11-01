@@ -14,10 +14,10 @@ UNIQUE = duplicate values not allowed, NULL values allowed.
 -- 2. Build a report with one column labelled by type:
 -- all customer names and all supplier names together.
 
-SELECT customer_name AS name, 'Customer' AS type
+SELECT name, 'Customer' AS type
 FROM Customers
 UNION ALL
-SELECT supplier_name AS name, 'Supplier' AS type
+SELECT name, 'Supplier' AS type
 FROM Suppliers;
 
 -- 3. Find employees who have the highest salary in the company.
