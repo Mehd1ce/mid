@@ -263,7 +263,7 @@ Unique Key: unique values, NULL allowed, multiple per table.
 COUNT()
  
 42. What is a subquery?
-A subquery is a query nested inside another query.
+A query inside another SQL query.
  
 43. What is the WHERE clause used for?
 It filters rows before grouping.
