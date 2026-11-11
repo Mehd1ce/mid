@@ -1,0 +1,639 @@
+1.	Authentication -List the five authentication factors
+Mövzu: Girişə Nəzarət Modelləri
+Authentication is the set of methods used to verify that a claimed identity is true. The five factors:
+•	Something you know  (password)
+•	Something you are  (iris scan)
+•	Something you have  (swipe card)
+•	Something you do  (gait recognition)
+•	The place you are  (a specific terminal)
+2.	Explain-features of Symmetric encryption
+Mövzu: Kriptoqrafiya
+Symmetric encryption uses a single key to both encrypt and decrypt data. Its features:
+•	Both parties must share a common key before exchanging information.
+•	Keys should be changed regularly to prevent attacks.
+•	A robust key-exchange mechanism is needed; because keys change often, this becomes expensive and cumbersome.
+3.	Antivirus and  software - Explain benefits of antivirus software
+Mövzu: Zərərli proqramlar və antiviruslar
+Antivirus software is a security program that prevents, detects and removes viruses and other malware. Benefits:
+•	Virus and malware protection
+•	Protection against spam and pop-ups
+•	Web protection
+•	Real-time protection
+•	Dark web scanning
+•	Protection from external devices
+4.	Explain behaviors-based detection in antivirus software
+Behavioral detection observes how a program actually behaves, rather than just emulating its execution. It looks for suspicious actions such as unpacking malcode, modifying the hosts file or logging keystrokes.
+It does not look for known viruses but monitors all programs; for example, if a program tries to write data to an executable, the antivirus flags it and alerts the user. This gives protection against brand-new viruses that are not yet in any virus dictionary.
+5.	computer worms?
+Mövzu: Zərərli proqramlar və antiviruslar
+A computer worm is malware whose primary function is to self-replicate and infect other computers while remaining active on infected systems. It duplicates itself to spread to uninfected computers, often by exploiting automatic and invisible parts of the operating system.
+6.	What is Spyware software?
+Mövzu: Zərərli proqramlar və antiviruslar
+Spyware is malicious software that secretly enters a computing environment and gathers confidential data without being detected, then passes it on to third parties such as fraudulent advertisers or data farms. It is installed without the user’s permission, and its main purpose is to steal credit card information, banking details and passwords.
+7.	What is the Trojans horse?
+Mövzu: Zərərli proqramlar və antiviruslar
+Trojans (Trojan horses) are malicious code, but not viruses: they neither infect other files nor self-replicate like worms. A Trojan works only if the user installs it, e.g. an executable (.exe), an Android package (.apk) or an iOS package (.ipa).
+8.	Explain social engineering attack
+Mövzu: Kiber hücumlar
+Social engineering uses social skills to convince people to reveal credentials or other valuable information. Victims are manipulated into sharing information, downloading software, visiting websites or sending money, compromising personal or organizational security.
+Typical attack lifecycle:
+1.	Research  – gathering information from social media, company websites, LinkedIn and public records.
+2.	Hook  – making contact and building a pretext or rapport.
+3.	Play  – exploiting the trust to obtain information or access.
+4.	Exit  – ending the interaction without arousing suspicion, often covering tracks.
+9.	Explain brute force, dictionary and man in the middle-attacks
+•	Brute force  – using computing resources to try every possible password combination; also called a password attack.
+•	Dictionary  – a variation of brute force that targets specific accounts and uses a list of commonly used passwords instead of random combinations.
+•	Man-in-the-Middle (MiTM)  – the attacker positions themselves between two communicating parties, intercepting and possibly altering their communication, stealing data such as login credentials or financial information.
+10.	Explain - backdoor attack
+Mövzu: Kiber hücumlar
+A backdoor attack occurs when attackers create or use a backdoor to gain remote access to a system by exploiting weaknesses in software, hardware or network infrastructure. It gives continued access without further authentication, letting them control system resources, perform network reconnaissance and install malware.
+The consequences can be immediate and severe (a data breach), or appear later when the attacker returns to carry out direct attacks.
+11.	Explain DDoS attack and  DoS attack
+Mövzu: Kiber hücumlar
+•	DoS  – makes a resource (site, application, server) unavailable to legitimate users, e.g. by flooding it with requests or exploiting vulnerabilities.
+•	DDoS  – floods the target with malicious traffic from multiple compromised devices (a botnet), causing slow performance or a complete outage.
+Main difference: DoS is a system-on-system attack, while DDoS involves many systems attacking a single system.
+12.	What is phishing attack?
+Mövzu: Kiber hücumlar
+Phishing is a cyberattack that uses fraudulent emails, text messages, calls or websites to trick people into sharing sensitive data, downloading malware or otherwise exposing themselves to cybercrime. It is a form of social engineering that relies on human error, fake stories and pressure tactics.
+Typically the attacker pretends to be someone trusted (a colleague, boss or well-known brand) and urges the victim to pay an invoice, open an attachment or click a link.
+13.	What is the Difference between Information security and cybersecurity?
+Mövzu: Kibertəhlükəsizlik
+•	Information security  protects information in any format – paper documents, digital data, intellectual property in people’s minds, and verbal or visual communication.
+•	Cybersecurity  protects digital assets – from networks and hardware to information processed, stored or transported by internetworked information systems.
+14.	What is Parkerian hexad?
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+•	Possession or control  – the physical disposition of the media on which data is stored; lets us discuss the loss of data in its physical medium.
+•	Authenticity  – proper attribution of the owner or creator of data; e.g. an e-mail altered to appear from a different address violates authenticity.
+•	Utility  – how useful the data is to us; it varies with the data and its format.
+15.	What is the CIA triad?
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+•	Confidentiality  – protecting data from those not authorized to view it; a necessary component of privacy.
+•	Integrity  – preventing data from being changed in an unauthorized or undesirable manner.
+•	Availability  – the ability to access data when needed; it can be affected by power loss, OS or application problems, network attacks or system compromise.
+16.	The types of security controls
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+•	Physical controls  – tangible measures that prevent or detect unauthorized access: fences, gates, guards, badges, biometrics, CCTV, motion sensors.
+•	Technical controls  – hardware or software mechanisms: authentication solutions, firewalls, antivirus, IDS/IPS, ACLs, encryption.
+•	Administrative controls  – policies, procedures and guidelines: hiring and termination, equipment and Internet usage, separation of duties, auditing, security awareness training.
+17.	What are Vulnerabilities?
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+A vulnerability is a weakness or fault in a system or protection mechanism that opens it to attack or damage. It is not the attack or the damage itself, but the gap that makes the attack possible. Classes:
+•	Hardware  – susceptibility to humidity/dust, overheating
+•	Software  – insufficient testing, insecure coding, design flaws
+•	Network  – unprotected communication lines, insecure architecture
+•	Personnel  – inadequate recruiting, low security awareness
+•	Physical site  – area subject to natural disasters
+•	Organizational  – lack of regular audits and continuity plans
+18.	What is Information Security information security’s role for organization
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+Information security means protecting information and information systems from unauthorized access, use, disclosure, disruption, modification or destruction. Its functions for an organization:
+•	Protects the organization’s ability to function
+•	Protects the data the organization collects and uses
+•	Safeguards the technology assets in use
+19.	What is Inferential (Blind) Structure Query language (SQl) injection?
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+The attacker sends payloads to the server and observes its response and behavior to learn about its structure. It is called blind because no data is transferred from the database to the attacker, so results cannot be seen in-band.
+20.	What is Cross-Site Scripting  is and describe its types?
+Mövzu: Proqram Təhlükəsizliyi
+Cross-Site Scripting (XSS) is a web application vulnerability that allows a third party to execute a script in the user’s browser on behalf of the web application.
+Types: Stored XSS (persistent), Reflected XSS (non-persistent), DOM-based XSS.
+21.	Explain Role-based access control (RBAC)
+Mövzu: Girişə Nəzarət Modelləri
+RBAC assigns access permissions according to a staff member’s job responsibilities. For example, an HR employee needs access to different systems and records than a sales employee; permissions are aligned with each job function.
+Orta səviyyə
+1.	Role-Based Access Control (RBAC) In a software development company, employees are organized by job position. All developers can read and write source code, all testers can read code and submit bug reports, and all project managers can view reports and approve releases. When a tester is promoted to developer, their permissions change automatically to match the new position — the administrator does not set permissions for each person individually. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Role-Based Access Control (RBAC). Access is based on the job position (developer, tester, project manager), and permissions belong to the role, not the individual, so they change automatically when a person’s role changes.
+2.	In a small company, employees are assigned to groups such as “HR”, “Finance”, and “Sales”. Each group is given a fixed set of permissions, and an employee automatically receives all the permissions of the group they belong to. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Role-Based Access Control (RBAC). Employees are assigned to groups (HR, Finance, Sales) and automatically receive all permissions of their group.
+3.	In a hospital system, access to patient records is based on job function. Doctors can view and edit medical histories, nurses can view them and add notes, and receptionists can only see appointment times. When a nurse is promoted to a different position, her permissions change automatically to match the new position. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Role-Based Access Control (RBAC). Access is based on job function, and when a nurse is promoted her permissions change automatically with the new position.
+4.	Plaintext- message Key- time Using the Vigenère cipher method, find the ciphertext. English Alphabet A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+M(12) + T(19) = 31 → 31 − 26 = 5 → F
+E(4) + I(8) = 12 → M
+S(18) + M(12) = 30 → 30 − 26 = 4 → E
+S(18) + E(4) = 22 → W
+A(0) + T(19) = 19 → T
+G(6) + I(8) = 14 → O
+E(4) + M(12) = 16 → Q
+Ciphertext: FMEWTOQ
+5.	Plaintext- august
+Key -month
+Using the Vigenère cipher method, find the ciphertext. English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+A(0) + M(12) = 12 → M
+U(20) + O(14) = 34 → 34 − 26 = 8 → I
+G(6) + N(13) = 19 → T
+U(20) + T(19) = 39 → 39 − 26 = 13 → N
+S(18) + H(7) = 25 → Z
+T(19) + M(12) = 31 → 31 − 26 = 5 → F
+Ciphertext: MITNZF
+6.	Plaintext- plane
+Key: work
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+P(15) + W(22) = 37 → 37 − 26 = 11 → L
+L(11) + O(14) = 25 → Z
+A(0) + R(17) = 17 → R
+N(13) + K(10) = 23 → X
+E(4) + W(22) = 26 → 26 − 26 = 0 → A
+Ciphertext: LZRXA
+7.	Plaintext-blonde
+Key blue
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+B(1) + B(1) = 2 → C
+L(11) + L(11) = 22 → W
+O(14) + U(20) = 34 → 34 − 26 = 8 → I
+N(13) + E(4) = 17 → R
+D(3) + B(1) = 4 → E
+E(4) + L(11) = 15 → P
+Ciphertext: CWIREP
+8.	Plaintext leopard
+Key tiger
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+L(11) + T(19) = 30 → 30 − 26 = 4 → E
+E(4) + I(8) = 12 → M
+O(14) + G(6) = 20 → U
+P(15) + E(4) = 19 → T
+A(0) + R(17) = 17 → R
+R(17) + T(19) = 36 → 36 − 26 = 10 → K
+D(3) + I(8) = 11 → L
+Ciphertext: EMUTRKL
+9.	Plaintext   yellow
+Key limon
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+Y(24) + L(11) = 35 → 35 − 26 = 9 → J
+E(4) + I(8) = 12 → M
+L(11) + M(12) = 23 → X
+L(11) + O(14) = 25 → Z
+O(14) + N(13) = 27 → 27 − 26 = 1 → B
+W(22) + L(11) = 33 → 33 − 26 = 7 → H
+Ciphertext: JMXZBH
+10.	Plaintext cherry
+Key kivi
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+C(2) + K(10) = 12 → M
+H(7) + I(8) = 15 → P
+E(4) + V(21) = 25 → Z
+R(17) + I(8) = 25 → Z
+R(17) + K(10) = 27 → 27 − 26 = 1 → B
+Y(24) + I(8) = 32 → 32 − 26 = 6 → G
+Ciphertext: MPZZBG
+11.	Plaintext school
+Key pen
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+S(18) + P(15) = 33 → 33 − 26 = 7 → H
+C(2) + E(4) = 6 → G
+H(7) + N(13) = 20 → U
+O(14) + P(15) = 29 → 29 − 26 = 3 → D
+O(14) + E(4) = 18 → S
+L(11) + N(13) = 24 → Y
+Ciphertext: HGUDSY
+12.	Plaintext - algebra
+Key- good
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+A(0) + G(6) = 6 → G
+L(11) + O(14) = 25 → Z
+G(6) + O(14) = 20 → U
+E(4) + D(3) = 7 → H
+B(1) + G(6) = 7 → H
+R(17) + O(14) = 31 → 31 − 26 = 5 → F
+A(0) + O(14) = 14 → O
+Ciphertext: GZUHHFO
+13.	Plaintext - winter
+Key- root
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+W(22) + R(17) = 39 → 39 − 26 = 13 → N
+I(8) + O(14) = 22 → W
+N(13) + O(14) = 27 → 27 − 26 = 1 → B
+T(19) + T(19) = 38 → 38 − 26 = 12 → M
+E(4) + R(17) = 21 → V
+R(17) + O(14) = 31 → 31 − 26 = 5 → F
+Ciphertext: NWBMVF
+14.	Plaintext - village
+Key- army
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+V(21) + A(0) = 21 → V
+I(8) + R(17) = 25 → Z
+L(11) + M(12) = 23 → X
+L(11) + Y(24) = 35 → 35 − 26 = 9 → J
+A(0) + A(0) = 0 → A
+G(6) + R(17) = 23 → X
+E(4) + M(12) = 16 → Q
+Ciphertext: VZXJAXQ
+15.	Plaintext - worry
+Key - car
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+W(22) + C(2) = 24 → Y
+O(14) + A(0) = 14 → O
+R(17) + R(17) = 34 → 34 − 26 = 8 → I
+R(17) + C(2) = 19 → T
+Y(24) + A(0) = 24 → Y
+Ciphertext: YOITY
+16.	Plaintext - trust
+Key- storm
+Using the Vigenère cipher method, find the ciphertext.
+English Alphabet
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Mövzu: Kriptoqrafiya
+T(19) + S(18) = 37 → 37 − 26 = 11 → L
+R(17) + T(19) = 36 → 36 − 26 = 10 → K
+U(20) + O(14) = 34 → 34 − 26 = 8 → I
+S(18) + R(17) = 35 → 35 − 26 = 9 → J
+T(19) + M(12) = 31 → 31 − 26 = 5 → F
+Ciphertext: LKIJF
+17.	Write an algorithm for the Columnar Transposition - Cipher
+Mövzu: Kriptoqrafiya
+Input: plaintext P and key k (number of columns). Output: ciphertext C.
+1.	Remove spaces from P.
+2.	Create a table with k columns and write the letters of P into it row by row.
+3.	If the last row is incomplete, leave it empty or pad it with a filler letter.
+4.	Read the table column by column (first to last column, top to bottom).
+5.	The letters read in this order form the ciphertext C.
+18.	What is Out-of-band Structure Query language (SQL) injection?
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+Out-of-band SQLi is used when the attacker cannot use the same channel to attack and gather results, or when the server is too slow or unstable. It requires certain features to be enabled on the database server.
+It relies on the server’s ability to make DNS or HTTP requests: the database “calls home” to an attacker-controlled server, and the attacker reads the stolen data from those requests.
+Prevention: never build SQL with untrusted input; restrict database permissions and outbound network access.
+19.	What is In-band Structure Query language (SQL) injection?
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+The attacker uses the same communication channel to launch the attack and gather results. Its simplicity and efficiency make it one of the most common SQLi types. Sub-variations:
+•	Error-based SQLi  – causes the database to produce error messages that reveal its structure.
+•	Union-based SQLi  – uses the UNION operator to combine several SELECT statements into one HTTP response containing useful data.
+20.	What is Structure Query language (SQl) injection and write its types?
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+SQL injection is a code injection technique used to modify or retrieve data from SQL databases. By inserting SQL statements into an entry field, an attacker can retrieve or destroy data or manipulate it in other ways.
+Types: In-band SQLi (classic), Inferential SQLi (blind) and Out-of-band SQLi.
+21.	what is Stored XSS ?
+Mövzu: Proqram Təhlükəsizliyi
+Stored (persistent) XSS is the most damaging type of XSS. The attacker injects a malicious payload, usually JavaScript, which – without input validation – is permanently stored by the application (e.g. in a database via a blog comment or forum post). When a victim opens the page, the payload is served as part of the HTML and runs in their browser.
+22.	What is Cross-Site Scripting (XSS) is and describe its types?
+Mövzu: Proqram Təhlükəsizliyi
+Cross-Site Scripting is a web application vulnerability that allows a third party to execute a script in the user’s browser on behalf of the web application. Consequences include account compromise or deletion, privilege escalation and malware infection.
+Types: Stored XSS (persistent), Reflected XSS (non-persistent), DOM-based XSS.
+23.	What is race condition software vulnerability race conditions?
+Mövzu: Proqram Təhlükəsizliyi
+Race conditions occur when multiple processes or threads share access to a resource and correct handling depends on the proper order or timing of operations.
+Example: an account holds $100. User 1 withdraws $20 and User 2 withdraws $30 at the same time. Both read a $100 balance, so the last update leaves $70 recorded instead of $50.
+Race conditions are hard to detect and reproduce; careful resource access that does not depend on timing avoids them.
+24.	What is buffer overflow software vulnerability?
+Mövzu: Proqram Təhlükəsizliyi
+Buffer overflows occur when the size of input data is not properly accounted for. Without bounds checking, e.g. 1000 characters entered into storage allocated for 50, the excess overwrites memory used by other applications or the operating system. An attacker can use this to tamper with other applications or make the OS run their own commands. Proper bounds checking prevents it.
+25.	What is the issues related to software security?
+Mövzu: Proqram Təhlükəsizliyi
+•	Complexity of software  – security holes are harder to find and fix.
+•	Evolving threat landscape  – new attacks and vulnerabilities appear constantly.
+•	Lack of awareness  – developers and organizations unknowingly run insecure programs.
+•	Resource constraints  – small organizations lack security staff and tools.
+•	Legacy systems  – outdated software is hard to secure and cannot use modern solutions.
+•	Security not a priority  – a survey says 86% of developers do not see security as a top priority.
+26.	What is software security? Importance of software security
+Mövzu: Proqram Təhlükəsizliyi
+Software security is the set of processes and mechanisms used to protect software from unauthorized access, use or destruction, ensuring data is protected in transit and at rest. Its importance:
+•	Data protection  – prevents data breaches, identity theft and financial loss.
+•	Business continuity  – incidents can halt operations and damage reputation.
+•	Regulatory compliance  – non-compliance with data protection laws brings legal liability.
+•	User trust  – customers lose faith in a company that mishandles data.
+•	Intellectual property protection  – software is often crucial IP that must be guarded from unauthorized use.
+27.	What is the Trusted Computing Base?
+Mövzu: Əməliyyat sistemlərinin təhlükəsizliyi
+The Trusted Computing Base (TCB) is the set of all hardware, firmware and software components critical to a system’s security. It is “trusted” because the security of the whole system depends on it: a bug or compromise in the TCB can make the entire system fail.
+In a typical OS it includes the kernel, kernel-mode device drivers, authentication and login mechanisms, access-control enforcement components, and hardware protection features (privilege modes, memory protection).
+The design goal is to keep the TCB as small as possible: fewer places for vulnerabilities and easier testing and verification.
+28.	Why the operating system is the foundation of security?
+Mövzu: Əməliyyat sistemlərinin təhlükəsizliyi
+The OS manages the computer’s hardware, and every security layer relies on the layers beneath it; applications, security tools and data all depend on the OS to enforce protection. If the OS is compromised, the protections above it can be bypassed:
+•	encryption keys can be read from memory;
+•	antivirus can be disabled or hidden from by a rootkit with kernel-level privileges;
+•	keystrokes, including passwords, can be intercepted;
+•	firewall rules and network settings can be altered.
+29.	What is Rule-based access control?
+Mövzu: Girişə Nəzarət Modelləri
+Rule-based access control grants access to areas, devices or databases according to a predetermined set of rules, regardless of the person’s role or position. For example, an administrator may allow entry only during business hours (9 a.m. – 5 p.m.). Such rules are not necessarily the same as role-based privileges.
+30.	What is Mandatory access control (MAC)?
+Mövzu: Girişə Nəzarət Modelləri
+MAC suits organizations with a tiered security clearance system and is popular with government and industries needing strict control of sensitive data (finance, engineering, healthcare). It gives the highest level of data protection: data is classified and security is administered centrally.
+Drawbacks: it is hard to implement and manage, can impede data sharing, needs constant rule updates and is rigid.
+31.	What is  Attribute-based access control (ABAC)?
+Mövzu: Girişə Nəzarət Modelləri
+ABAC is a policy-based approach that grants access based on user characteristics (department, objectives, security clearance) and also on context: secure device and location, and timing in line with policy.
+Examples: a professor sees a student’s grades only during the term they teach that student; a doctor can access a patient’s file only when treating that patient and only from a secure location.
+32.	What is Discretionary access control (DAC)?
+Mövzu: Girişə Nəzarət Modelləri
+In DAC the resource’s owner holds the administrative power and can grant or restrict access without central approval. It relies on access control lists (ACLs) or user groups. It is often used for shared documents (e.g. a shared Google Doc).
+DAC is a quick way to grant access, but not the most secure, as it gives external actors a faster route to the asset.
+33.	Compare Traditional IT network security and Zero trust security model
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+•	Traditional IT network security  – “castle-and-moat”: hard to get in from outside, but everyone inside the network is trusted by default; once an attacker gets in, they have free rein.
+•	Zero Trust  – requires strict identity verification for every person and device accessing resources, whether inside or outside the network perimeter; it trusts no one and nothing.
+34.	What is Clark-Wilson security model?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+The Clark-Wilson model is designed for commercial environments. Unlike BLP and Biba, it uses roles, rules and workflows instead of strict security levels to keep data accurate and unaltered. Only trusted actions may change the “safe” data.
+•	Subject  – any user requesting data items.
+•	Constrained data items (CDIs)  – cannot be accessed directly by the subject; only through the model’s trusted procedures.
+•	Unconstrained data items (UDIs)  – can be accessed directly by the subject.
+35.	What is Biba security model?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+The Biba model maintains integrity and works as the reverse of Bell-LaPadula. Rules:
+•	Simple Integrity Rule  – read the same or a higher level, not lower (no read down).
+•	Star Integrity Rule  – write the same or a lower level, not higher (no write up).
+•	Strong Star Integrity Rule  – read and write only at your own level.
+36.	What is Bell-La Padula security model?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+The Bell-La Padula model maintains confidentiality. Rules:
+•	Simple Confidentiality Rule  – read the same or a lower level, not higher (no read up).
+•	Star Confidentiality Rule  – write the same or a higher level, not lower (no write down).
+•	Strong Star Confidentiality Rule  – read and write only at the same level (no read/write up or down).
+37.	What is Brewer–Nash (Chinese Wall) model?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+The Brewer–Nash model protects against conflicts of interest, typically in consulting, auditing or investment firms where one employee must not advise two competing clients.
+Example: after reading Bank A’s confidential strategy you may not read Bank B’s, but reading Oil X’s files is fine since oil companies do not compete with banks. At first you are free to choose; once you choose, a “wall” rises around that client’s competitors. You may read a document if (1) you have already read something from the same company, or (2) you have read nothing from any competitor in that conflict class.
+38.	What is the state machine model?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+The system is modelled as moving between “states” (who is reading or editing which file) whenever a user makes a request; some states are safe, others unsafe. Since checking every state is impossible, the “domino” logic is used: if (1) the system starts in a safe state, and (2) every rule moves a safe state to another safe state, the system can never reach an unsafe state.
+39.	What are benefits and disadvantages of asymmetric encryption?
+Mövzu: Kriptoqrafiya
+•	Benefits  – no key distribution problem (no key exchange needed); higher security because private keys are never transmitted; digital signatures let a recipient verify the sender.
+•	Disadvantages  – slow compared to symmetric encryption, so unsuitable for bulk data; a lost private key means messages cannot be decrypted; public keys are not authenticated, so users must verify that a public key belongs to the claimed person.
+40.	How does asymmetric-cryptography work?
+Mövzu: Kriptoqrafiya
+Asymmetric encryption uses a mathematically related pair of keys, a public key and a private key: what one encrypts, the other decrypts. The sender obtains the receiver’s public key, encrypts the plaintext with it, and sends the ciphertext; the receiver decrypts it with their private key. Because of the one-way nature of the function, other senders who also hold the public key cannot read each other’s messages.
+41.	What is Asymmetric Encryption?
+Mövzu: Kriptoqrafiya
+Asymmetric (public key) cryptography uses a pair of related keys, one public and one private, to encrypt and decrypt a message. The sender takes the recipient’s public key from a public directory to encrypt, and only the recipient’s private key (kept secret) can decrypt it. If the sender encrypts with their private key, only their public key can decrypt it, which authenticates the sender. These processes happen automatically.
+42.	What is characteristics of stream cipher?
+Mövzu: Kriptoqrafiya
+A stream cipher encrypts data one byte (bit) at a time by applying a key and algorithm to each binary digit of the plaintext stream. It is symmetric: the same key encrypts and decrypts. Key points:
+•	It follows a pseudorandom number stream.
+•	A longer key gives stronger security.
+•	It needs fewer lines of code than a block cipher.
+43.	How to choose block size in block chipher?
+Mövzu: Kriptoqrafiya
+•	Avoid a very small block size  – with m bits there are 2ᵐ possible plaintext blocks, and an attacker can build a dictionary of plaintext/ciphertext pairs; a larger block makes this harder.
+•	Avoid a very large block size  – the cipher becomes inefficient and plaintext needs padding.
+•	Use a multiple of 8 bits  – easier to implement, as processors handle data in multiples of 8 bits.
+44.	What is characteristics of block cipher?
+Mövzu: Kriptoqrafiya
+A block cipher encrypts data in fixed-size blocks (commonly 64 or 128 bits) using a key and algorithm, processing one whole block at a time; the output block has the same length as the input block. It is an invertible symmetric-key algorithm (the same key encrypts and decrypts). Its strength depends on the key length, not on the block size.
+45.	What is  advantages and challenges of Symmetric encryption?
+Mövzu: Kriptoqrafiya
+•	Advantages  – scalability (low computational overhead), simplicity, speed and efficiency.
+•	Challenges  – key distribution is difficult; if the key is lost or compromised all messages are vulnerable (hard key management); not ideal for large-scale communication with many parties; limited security if the key is weak or poorly managed.
+46.	Differences between Monoalphabetic and Polyalphabetic Cipher
+Mövzu: Kriptoqrafiya
+•	Monoalphabetic cipher  – a substitution cipher in which each plaintext character is always replaced by the same ciphertext character throughout (e.g. a shift of three: ABCDEFGHIJKLMNOPQRSTUVWXYZ → DEFGHIJKLMNOPQRSTUVWXYZABC).
+•	Polyalphabetic cipher  – the replacement varies with the key and the character’s position, using several substitution alphabets (e.g. DEF… for cipher 1, GHI… for cipher 2, JKL… for cipher 3).
+47.	What is signature-based detection in antivirus software?
+Mövzu: Zərərli proqramlar və antiviruslar
+The antivirus compares a file’s code with a dictionary of known virus signatures. On a match it can repair the file, quarantine it or delete it.
+It cannot detect new malware or variants of existing malware until the definition file is updated, so it requires periodic (usually online) updates.
+48.	What are the types of computer worms
+Mövzu: Zərərli proqramlar və antiviruslar
+1.	Email worms  – send outbound messages to all addresses in a user’s contact list.
+2.	File-sharing worms  – copy themselves into shared folders and spread through peer-to-peer networks.
+3.	Crypto worms  – encrypt data on the victim’s system.
+4.	Internet worms  – spread to other devices the infected computer connects to via the internet and private networks.
+5.	Instant messaging worms  – spread through attachments or links in chat messages sent to the contact list.
+49.	What are the types of spyware?
+Mövzu: Zərərli proqramlar və antiviruslar
+•	Keylogger  – records everything typed (passwords, card data, websites visited); hard to detect.
+•	Browser hijacker  – changes browser settings without the user’s consent.
+•	Adware  – serves deceptive or annoying ads, with or without the user’s knowledge.
+•	Web beacon  – tracking pixel or web bug that monitors activity (content viewed, emails opened).
+•	Rootkit  – tools that give threat actors remote access and control.
+•	Stalkerware  – used to track someone’s location.
+50.	What are the types of trojan horses?
+Mövzu: Zərərli proqramlar və antiviruslar
+•	Backdoor Trojan  – gives an attacker remote access and control.
+•	Ransom Trojan  – impairs the computer or blocks data until the user can no longer use it.
+•	Fake antivirus Trojan  – simulates legitimate antivirus software.
+•	Rootkit Trojan  – conceals itself so other malware stays active longer.
+•	Game-thief Trojan  – steals account information of online gamers.
+•	Banker Trojan  – targets banking accounts and financial information.
+51.	What are the types of computer viruses?
+Mövzu: Zərərli proqramlar və antiviruslar
+•	Boot sector viruses  – affect the boot sector of a floppy, USB or hard disk.
+•	Polymorphic viruses  – encrypt themselves differently (different algorithms and keys) on every infection.
+•	Direct action viruses  – carry out specific actions, such as infecting and modifying files in a directory.
+•	Overwrite viruses  – destroy data by overwriting it with random data.
+•	Logic bombs  – not viruses but camouflaged program segments that destroy data once certain conditions are met.
+•	Macro viruses  – infect files created by applications that contain macros.
+52.	What is computer virus? Write signs that may help you identify computer-virus
+Mövzu: Zərərli proqramlar və antiviruslar
+A computer virus is a self-replicating program written to alter the way a computer operates without the user’s permission or knowledge. Signs of infection:
+•	Slow system – applications take longer to open.
+•	Too many pop-up windows.
+•	Programs or files open by themselves in the background.
+•	Being logged out of accounts, as accounts may be hacked.
+•	The device crashes.
+53.	What are email hijacking and session hijacking attacks?
+Mövzu: Kiber hücumlar
+•	Email hijacking  – attackers take control of the email accounts of a business or organization (often banks or credit card companies), monitor communications, and collect personal data and intelligence on transactions.
+•	Session hijacking  – attackers steal session cookies to impersonate a user or obtain the information they hold (passwords, card numbers, account data); they must act fast because the cookie expires with the session.
+54.	Which the difference between Distributed Denial-of-service attack and Denial-of-service attack?
+Mövzu: Kiber hücumlar
+1.	Detection/mitigation  – a DoS comes from one location, so its origin is easy to trace and block (a good firewall can do it); a DDoS comes from many remote locations that disguise its origin.
+2.	Speed  – a DDoS can be deployed much faster, which makes it harder to detect.
+3.	Traffic volume  – a DDoS uses many bots, sending far more traffic at once.
+4.	Execution  – a DDoS coordinates infected hosts in a botnet controlled by a C&C server; a DoS typically uses a script or tool on one machine.
+5.	Tracing  – tracing the source of a DDoS is much more complicated.
+55.	What are types of phishing attack?
+Mövzu: Kiber hücumlar
+•	Bulk email phishing  – mass spam emails sent to as many people as possible, often posing as large legitimate businesses.
+•	Spear phishing  – targets a specific individual with privileged access or authority (e.g. a finance manager).
+•	Whale phishing (whaling)  – targets C-level and senior executives who can authorize large payments or release sensitive information.
+•	Smishing  – SMS phishing with fake text messages, e.g. posing as a wireless provider offering a “free gift” or asking for card details.
+56.	What is the Cyber-attack? Categorize the Cyber-attacks
+Mövzu: Kiber hücumlar
+Attacks generally fall into four categories:
+•	Interception  – unauthorized access to data, applications or environments (file viewing, eavesdropping, reading e-mail); mainly an attack on confidentiality and hard to detect.
+•	Interruption  – assets become unusable or unavailable, temporarily or permanently; mainly availability (e.g. DoS on a mail server), sometimes integrity.
+•	Modification  – tampering with an asset; mainly integrity, possibly availability.
+•	Fabrication  – generating data, processes or communications in a system (e.g. spurious database records); mainly integrity.
+57.	What is consolidation of security infrastructure?
+Mövzu: Kibertəhlükəsizlik
+Consolidation means replacing many separate, independently managed security products (firewall, antivirus, VPN, web filter, email gateway, IPS from different vendors) with fewer integrated platforms, ideally managed from a single console, where functions share data, policies and management. Examples:
+•	UTM / NGFW  – one appliance combining firewall, IPS, antivirus, VPN and content filtering.
+•	SIEM  – collects logs from all systems in one place for analysis.
+•	XDR  – correlates threat data across endpoints, network, email and cloud.
+58.	How the MITRE ATT&CK Framework Helps Security-Teams?
+Mövzu: Kibertəhlükəsizlik
+MITRE ATT&CK is a systematic knowledge library of adversary tactics and techniques that helps security teams understand and defend against threats by providing:
+•	Enhanced threat intelligence
+•	Improved incident response capabilities
+•	Effective prioritization of security controls
+•	Streamlined communication among stakeholders
+•	Benchmarking of cybersecurity maturity
+•	Enhanced security awareness training
+59.	Can you Write seven stages of The Cyber Kill Chain framework?
+Mövzu: Kibertəhlükəsizlik
+The Cyber Kill Chain breaks down how attackers operate. Its seven stages:
+1.	Reconnaissance
+2.	Weaponization
+3.	Delivery
+4.	Exploitation
+5.	Installation
+6.	Command and Control (C2)
+7.	Actions on Objectives
+60.	What are Controls according to their Functions?
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+•	Preventative  – stop unauthorized activity. Physical (fences, locks, alarms), technical (antivirus, firewalls, IPS) and administrative (separation of duties, data classification, auditing).
+•	Detective  – identify and alert to unauthorized activity in progress or after the fact, e.g. IDS and honeypots.
+•	Corrective  – deployed after an incident to repair damage and restore previous state, e.g. patching, quarantining viruses, incident response plans.
+Çətin səviyyə
+1.	Organization accounting system is designed so that users never work on data directly. Instead, every change must be made through certified programs, each user is allowed to run only specific programs on specific data, and the system enforces separation of duties — the person who creates a transaction cannot also approve it. The goal is to keep data correct and consistent for commercial use. Which security model does this describe? Explain your answer, including its main concepts.
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+Clark–Wilson model. Main concepts:
+•	Users cannot change data directly; all changes go through certified programs.
+•	No single person controls a whole transaction (separation of duties).
+2.	Banking system is designed so that incorrect or low-quality data cannot corrupt trusted records. A clerk working at a “low integrity” level cannot write to high-integrity financial records but can read them. A highly trusted process cannot read low-integrity data, to avoid being contaminated by it. The whole design is focused on protecting integrity. Which security model does this describe?
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+Biba model. Two rules:
+•	Simple Integrity Property (“no read down”)
+•	Star Integrity Property (“no write up”)
+3.	A military system is designed so that confidential information cannot leak to users with lower clearance. A user with “Secret” clearance can read Confidential and Secret files but cannot read Top Secret files. At the same time, that user cannot write Confidential files, they may only write at their own level or higher. The whole design is focused on protecting confidentiality. Which security model does this describe? including its two main rules.
+Mövzu: Təhlükəsizlik Modelləri və freymvorklər
+Bell–La Padula (BLP) model. Two rules:
+•	Simple Confidentiality Property (“no read up”)
+•	Star Confidentiality Property (“no write down”)
+4.	LIVE Streaming company builds its security system so that access to content depends on several factors checked together: the user’s subscription type (Free, Standard, Premium), their country, the age rating of the video, and the time a live event becomes available. A video plays only if all the conditions in the policy are satisfied — for example, a Premium user in an allowed country may watch an age-restricted video only after its release time. Which access control model does this describe? Explain your answer.
+Mövzu: Girişə Nəzarət Modelləri
+Attribute-Based Access Control (ABAC). Access is decided by evaluating several attributes together: subscription type (subject), country and time (environment) and age rating (resource). Access is granted only when all policy conditions are met.
+5.	Institute uses a relational database with a table called exams. The database administrator (admin) is the owner of the table. The admin gives the dean permission to read the table and to update the result column and allows the dean to pass these privileges on to others. The dean gives the secretary permission only to read the table. Later, the secretary changes job and no longer needs access to the table. Write these permissions in sql
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+GRANT SELECT, UPDATE (result) ON exams TO dean WITH GRANT OPTION;
+GRANT SELECT ON exams TO secretary;
+REVOKE SELECT ON exams FROM secretary;
+6.	University uses a relational database with a table called exams. The database administrator is the owner of the table. The admin gives the dean permission to read the table and to update the result column and allows the dean to pass these privileges on to others. The dean gives the secretary permission only to read the table. Write these permissions in sql
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+GRANT SELECT, UPDATE (result) ON exams TO dean WITH GRANT OPTION;
+GRANT SELECT ON exams TO secretary;
+7.	University uses a relational database with a table called exams. The database administrator (admin) is the owner of the table. The admin gives the dean permission to read the table and to update the result column and allows the dean to pass these privileges on to others. The dean gives the lecturer permission to read the table and update the result column. Write these permissions in sql
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+GRANT SELECT, UPDATE (result) ON exams TO dean WITH GRANT OPTION;
+GRANT SELECT, UPDATE (result) ON exams TO lecturer;
+8.	University uses a relational database with a table called exams. The database administrator (admin) is the owner of the table. The admin gives the dean permission to read the table and to update the result column and allows the dean to pass these privileges on to others. Write this permission in sql
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+GRANT SELECT, UPDATE (result) ON exams TO dean WITH GRANT OPTION;
+9.	Cloud platform decides whether to allow access by evaluating several conditions at the same time: the user’s department, the time of day, the device being used, and the user’s location. Access is granted only if all the conditions in the policy are satisfied. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Attribute-Based Access Control (ABAC). Several conditions (department, time of day, device, location) are evaluated at the same time, and access is granted only if all policy conditions are satisfied.
+10.	Military intelligence system labels every file as Confidential, Secret, or Top Secret. A soldier with “Secret” clearance can open Confidential and Secret files but is automatically blocked from Top Secret files. No officer can override these rules for an individual. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Mandatory Access Control (MAC). Every file is labeled Confidential, Secret or Top Secret; a Secret-cleared soldier can open Confidential and Secret files but is blocked from Top Secret, and no officer can override the rules.
+11.	Shared company file server, each employee who creates a file becomes its owner. The owner personally decides who else may read or edit that file and can grant or revoke access to colleagues at any time. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Discretionary Access Control (DAC). Each employee who creates a file becomes its owner, and the owner personally decides who may read or edit it and can grant or revoke access at any time.
+12.	Government agencies all its documents into strict security levels. Employees can only access files for which they have the proper clearance, and no one can change their access rights. Even if a manager wants to grant additional access, it must go through a central administrator. Which access control model does this describe?
+Mövzu: Girişə Nəzarət Modelləri
+Mandatory Access Control (MAC). Documents are classified into strict security levels, access depends on clearance, and even a manager must go through a central administrator.
+13.	The login query-
+SELECT * FROM users WHERE username = 'admin' AND password = '1234';
+The username and password come directly from the user’s input and are placed straight into the query.
+Question: The attacker types of admin' -- as the username and leaves the password empty. The query becomes:
+SQL
+SELECT * FROM users WHERE username = 'admin' --' AND password = ‘;
+The attacker logs in as admin without knowing the password.
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+Use a parameterized query: instead of placing the user’s input directly in the query, use placeholders (?) for the values:
+SELECT * FROM users WHERE username = ? AND password = ?;
+14.	What are the main strategies for protecting databases?
+Mövzu: Verilənlər bazasının təhlükəsizliyi
+•	Protect all critical databases that hold private data, not just one or two.
+•	Authentication and authorization – DBAs regularly check login names, so only authorized users exist and unused accounts are disabled.
+•	Advanced access control to track privileged users (administrators, developers, testers, architects).
+•	Patch management against vulnerabilities.
+•	Centralize database security administration and standardize policies across data centers and databases.
+•	Protect non-production databases (testing, development, training) too.
+•	Make prevention a top priority.
+15.	How can you secure a software development process?
+Mövzu: Proqram Təhlükəsizliyi
+1.	Consider software security a priority from the start
+2.	Define the project’s security requirements
+3.	Identify potential security threats
+4.	Have secure coding guidelines and standards
+5.	Use up-to-date frameworks and libraries
+6.	Conduct security awareness training
+7.	Implement digital user identity
+8.	Monitor security information
+16.	What are the Stages of the Secure Software Development Lifecycle?
+Mövzu: Proqram Təhlükəsizliyi
+1.	Requirements  – treat security as first-class alongside functional specs; identify regulatory obligations and data sensitivity.
+2.	Planning  – choose a security framework and decide how security activities fit the project workflow.
+3.	Design  – shape the architecture to minimize risk; perform threat modeling to identify attackers, targets and exploitation paths.
+4.	Implementation  – consistently apply secure coding practices.
+5.	Testing  – run tests in build and production environments to find vulnerabilities that appear at runtime.
+6.	Deployment  – make sure the release process itself is secure.
+7.	Maintenance  – continuously monitor to detect and respond to new threats.
+17.	What is operating system (OS) hardening is, and describe the six main ways to reduce the attack surface of an operating system?
+Mövzu: Əməliyyat sistemlərinin təhlükəsizliyi
+OS hardening aims to reduce the number of avenues through which an operating system can be attacked, i.e. its attack surface: the larger it is, the greater the chance of successful penetration. Six main ways to reduce it:
+1.	Remove unnecessary software
+2.	Remove or turn off unessential services
+3.	Make alterations to common accounts
+4.	Apply the principle of least privilege
+5.	Apply software updates in a timely manner
+6.	Use logging and auditing functions
+18.	How to Build a Cyber Security Strategy for Business?
+Mövzu: Kibertəhlükəsizlik
+A corporate cybersecurity strategy must be tailored to the organization’s unique needs, since threats and requirements differ by size, industry and location. Steps:
+1.	Understand the cyber threat landscape
+2.	Assess your cybersecurity maturity
+3.	Leverage security benchmarks and compliance standards
+4.	Leverage both prevention and detection methods
+5.	Design a cyber security architecture
+6.	Consolidate security infrastructure
+19.	What is the MITRE ATT&CK Matrix main tactics?
+Mövzu: Kibertəhlükəsizlik
+•	Reconnaissance  – gathering information to plan an attack.
+•	Initial access  – penetrating the target system or network.
+•	Execution  – running malicious code on the compromised system.
+•	Privilege escalation  – gaining higher-level permissions (e.g. user to administrator).
+•	Credential access  – stealing usernames, passwords and other logon credentials.
+•	Discovery  – learning which resources can be accessed or controlled.
+•	Collection  – gathering data related to the attack goal.
+•	Exfiltration  – stealing data from the system.
+20.	Which protective measures are taken to prevent attacks?
+How can cyber threats be identified and prevented? Bu sual olacaq
+Mövzu: Kompüter sistemlərinin təhlükəsizliyinə giriş
+•	Bolster access control  – strong passwords, reset all default passwords, create a strong access control policy.
+•	Keep all software updated.
+•	Standardize software  – operating system, browser, media player, plug-ins.
+•	Network protection  – firewall, proper access controls, IDS/IPS to track packet floods, network segmentation, VPN.
+•	Employee training.
+•	Schedule backups  – weekly, with incremental backups every few days.
